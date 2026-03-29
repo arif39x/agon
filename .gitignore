@@ -1,0 +1,19 @@
+# Environments
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases and Data Exports
+consortium_research.db
+consortium_data.csv
+
+# OS files
+.DS_Store
+
+# Secrets and Local Configs
+.env
