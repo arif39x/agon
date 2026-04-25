@@ -1,6 +1,6 @@
 import sqlite3
 
-DB_PATH = "consortium_research.db"
+DB_PATH = "agon_research.db"
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)

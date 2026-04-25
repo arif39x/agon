@@ -3,7 +3,7 @@ import sys
 import uuid
 
 import database
-from engine import PERSONAS, ConsortiumEngine
+from engine import PERSONAS, AgonEngine
 
 database.init_db()
 
@@ -24,8 +24,8 @@ for i, p in enumerate(PERSONAS):
         "model_name": models[i % len(models)],
     }
 
-print("Starting Consortium Headless Verification (mock API keys)")
-engine = ConsortiumEngine(agent_configs=agent_configs)
+print("Starting Agon Headless Verification (mock API keys)")
+engine = AgonEngine(agent_configs=agent_configs)
 session_id = str(uuid.uuid4())
 
 seed_topic = "The security implications of self-modifying smart contracts."

@@ -24,7 +24,7 @@ class ModelCarousel:
         self.index += 1
         return model_id
 
-class ConsortiumEngine:
+class AgonEngine:
     def __init__(self, agent_configs):
         self.agent_configs = agent_configs
         self.clients = {}

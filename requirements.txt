@@ -1,3 +1,4 @@
 openai
 PyQt6
 requests
+pygments
